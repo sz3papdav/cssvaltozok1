@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --bcg-color: white;
+    --cont-w: 100%;
+    --cont-h: 300px;
+    --cont-disp: flex;
+    --cont-marg: 5px;
+    --cont-flexwrap: wrap;
+    --cont-justificont: center;
+    --size-h: 200px;
+    --size-w: 200px;
+    --size-margin: 5px;
+    --size-minwidth: 400px;
+    --size-maxwidth: 450px;
+    --szin1-bgc: purple;
+    --szin2-bgc: lightblue;
+    --szin3-bgc: aqua;
+    --szin4-bgc: darkgreen;
+    --szin5-bgc: salmon;
+    --szin6-bgc: beige;
+    --szin7-bgc: pink;
+    --szin8-bgc: orange;
+    --color1: black;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+/*body{
+    background-color: var(--bcg-color); 
+}*/
+.container{
+    width: var(--cont-w);
+    height: var(--cont-h);
+    display: flex;
+    margin-top: var(--cont-marg);
+    flex-wrap: var(--cont-flexwrap);
+    justify-content: var(--cont-justificont);
+}
+.size{
+    height: var(--size-h);
+    width: var(--size-w);
+    margin: var(--size-margin);
+    min-width: var(--size-minwidth);
+    max-width: var(--size-maxwidth);
+}
+.szin1{
+    background-color: var(--szin1-bgc);
+    /*flex: var(--flex);*/
+}
+.szin2{
+    background-color: var(--szin2-bgc);
+    /*flex: var(--flex);*/
+}
+.szin3{
+    background-color: var(--szin3-bgc);
+    /*flex: var(--flex);*/
+}
+.szin4{
+    background-color: var(--szin4-bgc);
+    /*flex: var(--flex);*/
+}
+.szin5{
+    background-color: var(--szin5-bgc);
+    /*flex: var(--flex);*/
+}
+.szin6{
+    background-color: var(--szin6-bgc);
+    /*flex: var(--flex);*/
+}
+.szin7{
+    background-color: var(--szin7-bgc);
+    /*flex: var(--flex);*/
+}
+.szin8{
+    background-color: var(--szin8-bgc);
+    /*flex: var(--flex);*/
+}
+.bgc-black{
+    /*background-color: black;*/
+    width: 100px;
+    height: 50px;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+.darkmode{
+    width: 100px;
+    height: 50px;
+}
+.btns{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+}
+.szamosgec{
+    width: 100px;
+    height: 50px;
+}
+.bgc-red{
+    background-color: red;
+    width: 100px;
+    height: 50px;
+}
+.switch{
+    width: 100px;
+    height: 50px;
+}
